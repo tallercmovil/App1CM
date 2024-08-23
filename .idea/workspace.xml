@@ -10,7 +10,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f6adfaca-311b-45c9-b872-8aaac55a1456" name="Changes" comment="Initial commit">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/amaurypm/app1cm/test2.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/amaurypm/app1cm/Student1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/amaurypm/app1cm/Student1.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/amaurypm/app1cm/Student2.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/amaurypm/app1cm/Student2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/amaurypm/app1cm/test.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/amaurypm/app1cm/test.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,46 +71,58 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin File" />
         <option value="Kotlin Data Class" />
         <option value="Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GithubDefaultAccount">
-    <option name="defaultAccountId" value="d4fe2b6a-cd77-4d30-80df-aedf65f7e194" />
-  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "tallercmovil"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/tallercmovil/App1CM.git",
+    "accountId": "7721df1a-511f-481e-8a26-c5e86dbaee4d"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
   <component name="ProjectId" id="2kkXd59seI4jeecsU3zYDr0WLjW" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Kotlin.TestKt.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
-    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Kotlin.Test2Kt.executor": "Run",
+    "Kotlin.TestKt.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;kotlin-gradle-user-dirs&quot;: [
-      &quot;/Users/amaurypereamatsumura/.gradle&quot;
+  "keyToStringList": {
+    "kotlin-gradle-user-dirs": [
+      "/Users/amaurypereamatsumura/.gradle"
     ]
   }
-}</component>
-  <component name="RunManager" selected="Kotlin.TestKt">
+}]]></component>
+  <component name="RunManager" selected="Kotlin.Test2Kt">
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="App1_CM.app.main" />
       <option name="DEPLOY" value="true" />
@@ -173,6 +189,13 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test2Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.amaurypm.app1cm.Test2Kt" />
+      <module name="App1_CM.app.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.amaurypm.app1cm.TestKt" />
       <module name="App1_CM.app.main" />
@@ -182,6 +205,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.Test2Kt" />
         <item itemvalue="Kotlin.TestKt" />
       </list>
     </recent_temporary>
@@ -211,7 +235,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724431023654</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1724431171033</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1724431171033</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
