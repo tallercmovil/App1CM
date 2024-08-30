@@ -9,7 +9,7 @@ android {
 
     defaultConfig {
         applicationId = "com.amaurypm.app1cm"
-        minSdk = 24
+        minSdk = 21
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
@@ -33,6 +33,8 @@ android {
     kotlinOptions {
         jvmTarget = "1.8"
     }
+
+
 }
 
 dependencies {
