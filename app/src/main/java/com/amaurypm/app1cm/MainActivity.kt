@@ -38,6 +38,12 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
         text = "Hello $name!",
         modifier = modifier
     )
+    TextField(
+        enabled = false,
+        value = "",
+        onValueChange = {}
+    )
+
 }
 
 @Preview(showBackground = true)
