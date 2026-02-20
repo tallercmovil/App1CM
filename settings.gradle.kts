@@ -22,6 +22,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "App1 CMdfgdfgdfg"
+rootProject.name = "App1 CM"
 include(":app")
 include(":testutils")
