@@ -2,6 +2,10 @@ package com.amaurypm.testutils
 
 import com.amaurypm.testutils.model.Student
 import com.amaurypm.testutils.model.Student2
+import java.text.DecimalFormat
+import java.text.NumberFormat
+import java.util.Locale
+import kotlin.math.pow
 import kotlin.random.Random
 
 fun main(){
@@ -290,7 +294,46 @@ for(x=1;x<=5;x+=5){
         override fun resta(a: Int, b: Int) {
             println("El triple de la resta de $a - $b es ${3*(a-b)}")
         }
-
     })
+
+    fun operaNumeros(num1: Int, num2: Int, operacion: (Int, Int) -> Unit){
+        operacion(num1, num2)
+    }
+
+    val miLambdaSuma: (Int, Int) -> Unit = { a, b -> println("La suma de $a + $b es ${a+b}") }
+
+    operaNumeros(35, 10) { a, b ->
+        println("La suma de $a + $b es ${a + b}")
+    }
+
+    operaNumeros(35, 10) { a, b ->
+        println("La resta de $a - $b es ${a - b}")
+    }
+
+    fun operaNumeroAleatorio(operacion: (Int) -> Unit){
+        val random = Random.nextInt(0,100)
+        operacion(random)
+    }
+
+    operaNumeroAleatorio { randomNumber ->
+        val resultado = randomNumber.toDouble().pow(3.0)
+        println("El cubo del número $randomNumber es ${String.format(Locale.ROOT, "%.2f", resultado)}")
+
+        //con esto pone los dos ceros después del decimal a fuerza y se reemplaza si es que el número tiene decimales
+        val decimalFormat = DecimalFormat("###,###,###.00")
+        println("El cubo del número $randomNumber es ${decimalFormat.format(resultado)}")
+
+        //Para formato de monedas
+        val currencyFormat = NumberFormat.getCurrencyInstance(
+            Locale.Builder()
+                .setLanguage("es")
+                .setRegion("MX")
+                .build()
+        )
+        println(currencyFormat.format(resultado))
+    }
+
+
+
 
 }
