@@ -25,3 +25,4 @@ dependencyResolutionManagement {
 rootProject.name = "App1 CM"
 include(":app")
 include(":app:kotlintest")
+include(":app:kotlintest2")
